@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Generador de imágenes Ai | CostaStiven</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Generador de imágenes Costa Stiven Ai</h1>
+        <p>Escriba su mensaje aquí para generar imágenes con el poder de IA, por ejemplo : "Mejor calidad, obra maestra, 
+            extremadamente detallada, alta resolución, 4K, sombras detalladas, linda, sonrisa".</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Escriba su mensaje aquí..." autocomplete="off">
+            <button type="button" id="generate">Generar</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generando...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

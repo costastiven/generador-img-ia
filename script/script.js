@@ -9,7 +9,7 @@ https://api-inference.huggingface.co/models/prompthero/openjourney
 
 */
 
-const apiKey = "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";
+const apiKey = "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";
 
 const maxImages = 4; // Número de imágenes a generar para cada mensaje
 let selectedImageNumber = null;

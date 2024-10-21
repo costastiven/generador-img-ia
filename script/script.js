@@ -5,11 +5,11 @@ https://huggingface.co/
 
 El motor que se utilizara para generar las imagenes es openjoruney
 
-https://api-inference.huggingface.co/models/prompthero/openjourney
+https://huggingface.co/prompthero/openjourney
 
 */
 
-const apiKey = "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";
+const apiKey = "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";
 
 const maxImages = 4; // Número de imágenes a generar para cada mensaje
 let selectedImageNumber = null;
